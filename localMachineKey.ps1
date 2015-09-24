@@ -1,0 +1,2 @@
+﻿New-Item -Path "HKLM:\Software\Adobe\Acrobat Reader\10.0\AVAlert\cCheckbox\cAcrobat\" –Force
+New-ItemProperty -Path "HKLM:\Software\Adobe\Acrobat Reader\10.0\AVAlert\cCheckbox\cAcrobat\" -Name "iWarnScriptPrintAll" -Type DWord -Value 1 –Force
